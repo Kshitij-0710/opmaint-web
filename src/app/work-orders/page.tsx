@@ -12,11 +12,11 @@ import {
 
 // Mock Data
 const data: WorkOrder[] = [
-  { id: "WO-2024-001", title: "HVAC Unit 4 Maintenance", priority: "High", status: "In Progress", dueDate: "2024-10-24", category: "Mechanical", assignedTo: "Mike R.", location: "Building A - Roof", cost: "$1,200.00", isOverdue: true },
-  { id: "WO-2024-002", title: "Lobby Light Replacement", priority: "Low", status: "Open", dueDate: "2024-11-01", category: "Electrical", assignedTo: "Unassigned", location: "Main Lobby", cost: "$150.00", isOverdue: false },
-  { id: "WO-2024-003", title: "Safety Inspection: Fire Exits", priority: "High", status: "Done", dueDate: "2024-10-20", category: "Safety", assignedTo: "Sarah J.", location: "All Floors", cost: "$0.00", isOverdue: false },
-  { id: "WO-2024-004", title: "Plumbing Leak - 2nd Floor", priority: "Low", status: "Open", dueDate: "2024-10-25", category: "Plumbing", assignedTo: "Dave B.", location: "Restroom 2B", cost: "$450.00", isOverdue: true },
-  { id: "WO-2024-005", title: "Quarterly Generator Test", priority: "Medium", status: "Open", dueDate: "2024-11-15", category: "Mechanical", assignedTo: "Mike R.", location: "Basement", cost: "$300.00", isOverdue: false },
+  { id: "WO-2024-001", title: "HVAC Unit 4 Maintenance", priority: "High", status: "In Progress", dueDate: "2024-10-24", category: "Mechanical", assignedTo: "Kshitij M.", location: "Building A - Roof", cost: "$1,200.00", isOverdue: true },
+  { id: "WO-2024-002", title: "Lobby Light Replacement", priority: "Low", status: "Open", dueDate: "2024-11-01", category: "Electrical", assignedTo: "Sakshi", location: "Main Lobby", cost: "$150.00", isOverdue: false },
+  { id: "WO-2024-003", title: "Safety Inspection: Fire Exits", priority: "High", status: "Done", dueDate: "2024-10-20", category: "Safety", assignedTo: "Rishi B.", location: "All Floors", cost: "$0.00", isOverdue: false },
+  { id: "WO-2024-004", title: "Plumbing Leak - 2nd Floor", priority: "Low", status: "Open", dueDate: "2024-10-25", category: "Plumbing", assignedTo: "Shahil.", location: "Restroom 2B", cost: "$450.00", isOverdue: true },
+  { id: "WO-2024-005", title: "Quarterly Generator Test", priority: "Medium", status: "Open", dueDate: "2024-11-15", category: "Mechanical", assignedTo: "Kshitij M.", location: "Basement", cost: "$300.00", isOverdue: false },
 ];
 
 // Reusable Stat Card Component
